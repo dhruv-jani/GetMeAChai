@@ -70,14 +70,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-center mb-14">Learn more about us</h2>
             <div className="w-full max-w-4xl">
               <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/qaTB_u1THVs?si=mCpcEpb4arO6xG85"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/BAIorLr7VdQ?si=7mE13R34LT6iuLA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
             </div>
           </div>

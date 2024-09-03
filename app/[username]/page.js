@@ -8,8 +8,6 @@ import { fetchUser } from '@/actions/userActions'
 const Username = ({ params }) => {
   const [userExists, setUserExists] = useState(null)
 
-  // console.log(params)
-
   useEffect(() => {
     const checkUserExists = async () => {
       try {

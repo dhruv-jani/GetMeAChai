@@ -178,6 +178,10 @@ const PaymentPage = ({ username }) => {
                 },
                 theme: {
                     color: "#5DADE2"
+                },
+                method: {
+                    upi: true, // Enable UPI payment
+                    qr: true,  // Enable QR code payment
                 }
             };
 
